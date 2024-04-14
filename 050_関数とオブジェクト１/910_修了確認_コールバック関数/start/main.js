@@ -36,7 +36,12 @@ const person = {
  * この時、１秒後にコンソールに出力されるのは
  * 'hello'または'hey'のどちらでしょうか？
  */
+
+
+
+
 const obj = {};
+
 obj.greeting = function() {
     console.log('hello');
 }
@@ -46,9 +51,10 @@ function after1s(callack) {
 }
 
 // この時点で実行します。
-// after1s(obj.greeting);
+ after1s(obj.greeting);
 
 // この後でgreetingを書き換えます。
+
 obj.greeting = function() {
     console.log('hey');
 }

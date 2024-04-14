@@ -22,10 +22,10 @@ const person = {
      * ２．アロー関数
      * ３．thisを一旦変数に代入
      */
-
-
     
 }
+
+person.hellos1();
 
 /**
  * 問題１：
@@ -35,12 +35,14 @@ const person = {
  */
 setTimeout(person.hello, 1000);
 
+
 /**
  * 問題２：
  * alertで"hello Tom"
  * と出力されるように、
  * 以下のコードを変更してください。
  */
+
 alert(person.hello);
 
 /**
