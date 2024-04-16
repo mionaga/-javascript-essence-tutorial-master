@@ -25,7 +25,7 @@ const person = {
     
 }
 
-person.hellos1();
+
 
 /**
  * 問題１：
@@ -33,7 +33,10 @@ person.hellos1();
  * と出力されるように、以下のコード
  * の記載を変更しましょう。
  */
-setTimeout(person.hello, 1000);
+setTimeout(() => {
+    const result = person.hello('hi!');
+    console.log(result);
+}, 1000);
 
 
 /**
@@ -43,7 +46,7 @@ setTimeout(person.hello, 1000);
  * 以下のコードを変更してください。
  */
 
-alert(person.hello);
+    alert(person.hello);
 
 /**
  * 問題３：

@@ -9,7 +9,8 @@
  * 
  */
 function hello(name) {
-  
+    const delayFn = () => console.log('hello ' + name);
+    return delayFn
 }
 
 /**
